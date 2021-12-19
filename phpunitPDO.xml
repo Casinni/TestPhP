@@ -1,0 +1,7 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="PDO">
+      <file>tests/PersonneDBTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpun
