@@ -24,7 +24,7 @@ class Personne{
     /** Email **/
     private string $pwd;
 
-
+/** constructeur de la classe métier*/ 
 	public function __construct(string $n,string $p,DateTime $d,$t,$e,$l,$pw){
 
 		$this->nom=$n;
