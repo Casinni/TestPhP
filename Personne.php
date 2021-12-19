@@ -39,7 +39,7 @@ class Personne{
 	}
 
 	/**
-	 * Methodes getter pour r�cup�rer les valeurs des  aux attributs de l'objet
+	 * Methodes getter pour récupérer les valeurs des  aux attributs de l'objet
          * @assertClass
 	 */
 	public function getId(){
