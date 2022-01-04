@@ -1,19 +1,19 @@
 <?php
 
-include_once"vue/vueAuthentification.php";
+include_once "vue/vueAuthentification.php";
 
 class Controller {
 
 	public function __construct()
 	{
-// Active tout les warning. Utile en phase de développement
-	// En phase de production, remplacer E_ALL par 0
-error_reporting(0);
+        // Active tout les warning. Utile en phase de développement
+            // En phase de production, remplacer E_ALL par 0
+        error_reporting(0);
 
-//appel de la vue authentification
+        //appel de la vue authentification
 
-$v=new vueAuthentification();
-$v->affiche();
+        $v=new vueAuthentification();
+        $v->affiche();
 	}
     public static function auth() {
         if (isset($_SESSION['token']) && isset($_SESSION['token_time']) && isset($_GET['id'])) {
@@ -34,7 +34,3 @@ $v->affiche();
         return false;
     }
 }
-
-
-
-?>
