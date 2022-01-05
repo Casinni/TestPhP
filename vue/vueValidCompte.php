@@ -1,6 +1,6 @@
 <?php
 require_once "vue/Vue.php";
-class vueValidMonCompte extends Vue {
+class vueValidCompte extends Vue {
     function affiche(){
         include "header.html";
             include "menu.php";

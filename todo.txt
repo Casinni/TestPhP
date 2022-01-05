@@ -13,3 +13,4 @@
 -implementer le back de l'item MonCompte permettant de mettre à jour les informations de l'utilisateur ( compte utilisateur et son adresse) en bdd:
 	-controller validCompteController.php
 	-vue vueValidcompte.php
+-Vous passerez l'outil PHP_CodeSniffer pour indenter votre et corriger les erreurs liées aux commentaires et à la sémantique algorithmique.
